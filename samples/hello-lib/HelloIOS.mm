@@ -9,9 +9,9 @@
 
 	UILabel *label=[[UILabel alloc] initWithFrame:[UIScreen mainScreen].applicationFrame];
 	[self.view addSubview:label];
-	label.textAlignment=UITextAlignmentCenter;
+	//label.textAlignment=UITextAlignmentCenter;
 	label.text=[self getHello];
-	[label release];
+	//[label release];
 }
 
 - (NSString*)getHello{
@@ -21,7 +21,7 @@
 }
 
 - (void)dealloc{
-	[super dealloc];
+	//[super dealloc];
 }
 
 @end
